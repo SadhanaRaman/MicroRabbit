@@ -15,7 +15,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentatio
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroRabbit.Domail.Core", "MicroRabbit.Domail.Core\MicroRabbit.Domail.Core.csproj", "{EDE76607-F0DD-4AD0-A5C8-941F9B24E5DB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroRabbit.Infra.Bus", "MicroRabbit.Infra.Bus\MicroRabbit.Infra.Bus.csproj", "{1C9EBA53-5623-4F85-9138-FEC377C97151}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroRabbit.Infra.Bus", "MicroRabbit.Infra.Bus\MicroRabbit.Infra.Bus.csproj", "{1C9EBA53-5623-4F85-9138-FEC377C97151}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroRabbit.Infra.IoC", "MicroRabbit.Infra.IoC\MicroRabbit.Infra.IoC.csproj", "{51ED9DEF-0BA9-4218-B5B9-52A3E900C994}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +33,10 @@ Global
 		{1C9EBA53-5623-4F85-9138-FEC377C97151}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C9EBA53-5623-4F85-9138-FEC377C97151}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1C9EBA53-5623-4F85-9138-FEC377C97151}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51ED9DEF-0BA9-4218-B5B9-52A3E900C994}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51ED9DEF-0BA9-4218-B5B9-52A3E900C994}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51ED9DEF-0BA9-4218-B5B9-52A3E900C994}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51ED9DEF-0BA9-4218-B5B9-52A3E900C994}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -38,6 +44,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{EDE76607-F0DD-4AD0-A5C8-941F9B24E5DB} = {F3A43B98-784B-4D21-ACFF-0581AC56B060}
 		{1C9EBA53-5623-4F85-9138-FEC377C97151} = {D8172E07-09DC-47A6-B8DC-9BAA7C983049}
+		{51ED9DEF-0BA9-4218-B5B9-52A3E900C994} = {4B62C25D-AD1A-4C8A-AB3D-F0762E7A0D6C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E1F77D30-CC9B-4742-9BCE-F65B3D7439A4}
